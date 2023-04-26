@@ -1,0 +1,212 @@
+page {
+  color: $u-main-color;
+  background-color: #f3f5f5;
+  min-height: 100vh;
+  height: 100%;
+  font-size: 28rpx;
+  line-height: 1.8;
+  position: relative;
+  box-sizing: border-box;
+}
+//页面结构复杂，css样式太多的情况，使用 image 可能导致样式生效较慢，出现 “闪一下” 的情况，此时设置 image{will-change: transform} ,可优化此问题。
+image {
+  will-change: transform;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+// 原生button
+button {
+  padding: 0;
+  background: none;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+  border-radius: 0;
+  &::after {
+    border: none;
+  }
+  &[disabled]:not([type]) {
+    background: none;
+    color: inherit;
+  }
+}
+
+textarea {
+  color: #999999 !important;
+}
+
+scroll-view {
+  height: 100%;
+}
+
+.leelen {
+  &-unit-du .u-input__input {
+    position: relative;
+    padding-right: 40rpx;
+    &::after {
+      content: '℃';
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}
+
+// uView
+// cell
+.u-cell {
+  min-height: 104rpx;
+  word-break: break-all;
+  padding: 24rpx 32rpx !important;
+  &_title {
+    color: $u-main-color;
+    font-size: 32rpx !important;
+  }
+  &__value {
+    font-size: 32rpx !important;
+  }
+  &-box {
+    .u-cell-item-box {
+      &::after {
+        border-bottom-width: 0px !important;
+      }
+    }
+  }
+}
+
+// tag
+.u-mode-light-primary {
+  border-color: $u-type-primary !important;
+}
+
+// button
+.u-btn {
+  border-radius: 10rpx;
+  &.u-size-default {
+    height: 88rpx !important;
+    line-height: 88rpx !important;
+  }
+  &.u-size-medium {
+    height: 60rpx !important;
+    line-height: 60rpx !important;
+    font-size: 24rpx !important;
+    padding: 0 24rpx !important;
+  }
+  &.u-btn--default--plain {
+    color: #999 !important;
+    border: 1rpx solid #ccc !important;
+    background-color: #fff !important;
+  }
+}
+
+// loadmore
+.u-load-more-wrap {
+  padding: 20rpx 0;
+}
+
+// form
+.u-form-item {
+  padding: 18rpx 0 !important;
+  font-size: 32rpx !important;
+  .u-input__input {
+    font-size: 32rpx !important;
+  }
+  &--right__content__slot {
+    position: relative;
+  }
+  .u-radio {
+    float: none !important;
+  }
+}
+.u-input {
+  text-align: inherit !important;
+  .u-input__textarea {
+    text-align: left;
+  }
+  &__right-icon {
+    .uicon-arrow-down-fill:before {
+      content: '\e605' !important;
+    }
+  }
+}
+.u-radio {
+  &-group {
+    text-align: right;
+  }
+  &__icon-wrap--checked {
+    background: none !important;
+    border: 6rpx solid $u-type-primary !important;
+    .uicon-checkbox-mark::before {
+      color: rgba(0, 0, 0, 0);
+    }
+  }
+}
+
+// u-popup
+.u-drawer {
+  .u-drawer-content {
+    border-top-left-radius: 32rpx;
+    border-top-right-radius: 32rpx;
+    overflow: hidden;
+  }
+}
+
+// u-select
+.u-select {
+  &__header {
+    height: 100rpx !important;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      border-bottom: 1rpx solid rgb(228, 231, 237);
+      transform: scaleY(0.5);
+    }
+    &__title {
+      font-weight: bold;
+    }
+    &__cancel,
+    &__confirm {
+      font-size: 28rpx;
+      color: $u-type-primary !important;
+    }
+  }
+}
+
+// u-picker
+.u-picker {
+  &-header {
+    height: 100rpx !important;
+    .u-btn-picker--tips,
+    .u-btn-picker--primary {
+      font-size: 28rpx;
+      color: $u-type-primary !important;
+    }
+  }
+  &__title {
+    color: $u-main-color !important;
+    font-weight: bold;
+    font-size: 32rpx;
+  }
+}
+
+.u-calendar{
+  &__bottom__choose{
+    line-height: 50rpx;
+  }
+}
+
+// 富文本样式统一处理处
+.leelen-rich-style{
+  font-size: 32rpx;
+  // line-height: 50rpx; // 会影响原来设置了字体没设行高的内容
+  line-height: unset;
+  p {
+    padding: 10rpx 0; // 处理连续图片无空隙（image由p标签包裹）
+  }
+}

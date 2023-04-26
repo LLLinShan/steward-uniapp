@@ -1,0 +1,20 @@
+@import 'uview-ui/theme.scss';
+
+$u-type-primary: #00c8cf;
+$u-type-primary-dark: #00a0a6;
+$u-type-primary-disabled: #adedef;
+$u-type-primary-light: #e5fafa;
+
+$u-main-color: #333333;
+$u-content-color: #666666;
+$u-tips-color: #999999;
+$u-light-color: #cccccc;
+
+$u-type-error: #f54e56;
+
+// 适配IPhoneX
+@mixin leelen-bottom($bottom: 0) {
+  padding-bottom: #{$bottom}rpx;
+  padding-bottom: calc(#{$bottom}rpx + constant(safe-area-inset-bottom)); // IOS<11.2
+  padding-bottom: calc(#{$bottom}rpx + env(safe-area-inset-bottom)); // IOS>11.2
+}

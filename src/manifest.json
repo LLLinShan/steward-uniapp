@@ -1,0 +1,23 @@
+{
+  "name": "leelen-steward-uniapp",
+  "description": "立林智慧管家",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "wx3c052385730c1b34",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "enhance": true,
+      "postcss": true,
+      "minified": true,
+      "checkSiteMap": false
+    },
+    "usingComponents": true,
+    "permission": {
+      "scope.userLocation": {
+        "desc": "你的位置信息将用于小程序演示定位能力"
+      }
+    }
+  },
+  "vueVersion": "2"
+}

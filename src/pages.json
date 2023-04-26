@@ -1,0 +1,376 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/login/manulLogin/index",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/home/index"
+    },
+    {
+      "path": "pages/home/changeNeigh",
+      "style": {
+        "navigationBarTitleText": "切换小区"
+      }
+    },
+    {
+      "path": "pages/my/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/my/village/index",
+      "style": {
+        "navigationBarTitleText": "我的社区"
+      }
+    },
+    {
+      "path": "pages/my/qrcode/index",
+      "style": {
+        "navigationBarTitleText": "楼栋二维码"
+      }
+    },
+    {
+      "path": "pages/my/house/index",
+      "style": {
+        "navigationBarTitleText": "出租屋报备",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/my/help/detail",
+      "style": {
+        "navigationBarTitleText": "客服问答详情"
+      }
+    },
+    {
+      "path": "pages/my/help/index",
+      "style": {
+        "navigationBarTitleText": "帮助中心"
+      }
+    },
+    {
+      "path": "pages/my/setting/index",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/my/house/detail",
+      "style": {
+        "navigationBarTitleText": "出租屋报备"
+      }
+    },
+    {
+      "path": "pages/my/house/edit",
+      "style": {
+        "navigationBarTitleText": "出租屋报备"
+      }
+    },
+    {
+      "path": "pages/home/register/index",
+      "style": {
+        "navigationBarTitleText": "住户登记"
+      }
+    },
+    {
+      "path": "pages/home/register/house",
+      "style": {
+        "navigationBarTitleText": "住户登记"
+      }
+    },
+    {
+      "path": "pages/home/register/search",
+      "style": {
+        "navigationBarTitleText": "住户登记"
+      }
+    },
+    {
+      "path": "pages/home/manage/index",
+      "style": {
+        "navigationBarTitleText": "住户管理"
+      }
+    },
+    {
+      "path": "pages/home/manage/detail",
+      "style": {
+        "navigationBarTitleText": "住户详情"
+      }
+    },
+    {
+      "path": "pages/home/manage/searchPerson",
+      "style": {
+        "navigationBarTitleText": "住户管理"
+      }
+    },
+    {
+      "path": "pages/home/manage/searchHouse",
+      "style": {
+        "navigationBarTitleText": "选择房屋地址"
+      }
+    },
+    {
+      "path": "pages/home/audit/index",
+      "style": {
+        "navigationBarTitleText": "住户审核",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/home/audit/detail",
+      "style": {
+        "navigationBarTitleText": "审核详情"
+      }
+    },
+    {
+      "path": "pages/home/audit/rerentDetail",
+      "style": {
+        "navigationBarTitleText": "审核详情"
+      }
+    },
+    {
+      "path": "pages/home/card/index",
+      "style": {
+        "navigationBarTitleText": "门禁卡管理"
+      }
+    },
+    {
+      "path": "pages/home/card/detail",
+      "style": {
+        "navigationBarTitleText": "门禁卡详情"
+      }
+    },
+    {
+      "path": "pages/home/card/manualInput",
+      "style": {
+        "navigationBarTitleText": "手动输入门禁卡",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/card/cardHouseSearch",
+      "style": {
+        "navigationBarTitleText": "房屋地址"
+      }
+    },
+    {
+      "path": "pages/home/card/cardPersonSearch",
+      "style": {
+        "navigationBarTitleText": "人员查询"
+      }
+    },
+    {
+      "path": "pages/home/opendoor/index",
+      "style": {
+        "navigationBarTitleText": "远程开门"
+      }
+    },
+    {
+      "path": "pages/home/information/index",
+      "style": {
+        "navigationBarTitleText": "信息发布"
+      }
+    },
+    {
+      "path": "pages/home/information/add",
+      "style": {
+        "navigationBarTitleText": "新建发布"
+      }
+    },
+    {
+      "path": "pages/home/information/detail",
+      "style": {
+        "navigationBarTitleText": "信息详情"
+      }
+    },
+    {
+      "path": "pages/home/house/index",
+      "style": {
+        "navigationBarTitleText": "房屋管理"
+      }
+    },
+    {
+      "path": "pages/home/house/detail",
+      "style": {
+        "navigationBarTitleText": "房屋详情"
+      }
+    },
+    {
+      "path": "pages/home/house/householdTabs",
+      "style": {
+        "navigationBarTitleText": "住户管理"
+      }
+    },
+    {
+      "path": "pages/home/house/houseEdit",
+      "style": {
+        "navigationBarTitleText": "房屋编辑"
+      }
+    },
+    {
+      "path": "pages/home/house/searchPerson",
+      "style": {
+        "navigationBarTitleText": "房屋管理"
+      }
+    },
+    {
+      "path": "pages/home/house/searchHouse",
+      "style": {
+        "navigationBarTitleText": "选择房屋地址"
+      }
+    },
+    {
+      "path": "pages/home/house/rerentApply",
+      "style": {
+        "navigationBarTitleText": "续租"
+      }
+    },
+    {
+      "path": "pages/home/house/quitApply",
+      "style": {
+        "navigationBarTitleText": "退租"
+      }
+    },
+    {
+      "path": "pages/home/house/changeHouse",
+      "style": {
+        "navigationBarTitleText": "换房"
+      }
+    },
+    {
+      "path": "pages/home/house/searchEmptyHouse",
+      "style": {
+        "navigationBarTitleText": "选择房屋地址"
+      }
+    },
+    {
+      "path": "pages/home/inout/index",
+      "style": {
+        "navigationBarTitleText": "出入记录"
+      }
+    },
+    {
+      "path": "pages/home/inout/detail",
+      "style": {
+        "navigationBarTitleText": "出入记录详情"
+      }
+    },
+    {
+      "path": "pages/home/houseHold/index",
+      "style": {
+        "navigationBarTitleText": "住家账号管理"
+      }
+    },
+    {
+      "path": "pages/home/houseHold/searchHouse",
+      "style": {
+        "navigationBarTitleText": "选择房屋地址"
+      }
+    },
+    {
+      "path": "pages/home/houseHold/searchPerson",
+      "style": {
+        "navigationBarTitleText": "住家账号管理"
+      }
+    },
+    {
+      "path": "pages/home/houseHold/detail",
+      "style": {
+        "navigationBarTitleText": "住家账号详情"
+      }
+    },
+    {
+      "path": "pages/home/houseHold/changeAccount",
+      "style": {
+        "navigationBarTitleText": "账号变更"
+      }
+    },
+    {
+      "path": "pages/home/rent/index",
+      "style": {
+        "navigationBarTitleText": "我要出租"
+      }
+    },
+    {
+      "path": "pages/home/rent/publishHouse",
+      "style": {
+        "navigationBarTitleText": "发布房源"
+      }
+    },
+    {
+      "path": "pages/home/rent/modifyHouse",
+      "style": {
+        "navigationBarTitleText": "房源编辑"
+      }
+    },
+    {
+      "path": "pages/home/rent/chooseHouse",
+      "style": {
+        "navigationBarTitleText": "选择房屋地址"
+      }
+    },
+    {
+      "path": "pages/home/rent/houseTag",
+      "style": {
+        "navigationBarTitleText": "房源标签"
+      }
+    },
+    {
+      "path": "pages/home/alarm/index",
+      "style": {
+        "navigationBarTitleText": "告警记录"
+      }
+    },
+    {
+      "path": "pages/home/monitor/index",
+      "style": {
+        "navigationBarTitleText": "查看监控"
+      }
+    },
+    {
+      "path": "pages/home/house/householdDetail",
+      "style": {
+        "navigationBarTitleText": "住户详情"
+      }
+    },
+    {
+      "path": "pages/webview/index"
+    }
+  ],
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "globalStyle": {
+    "navigationBarTitleText": "立林智慧管家",
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1ACDD3",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index"
+      },
+      {
+        "pagePath": "pages/my/qrcode/index"
+      },
+      {
+        "pagePath": "pages/my/index"
+      }
+    ]
+  }
+}
